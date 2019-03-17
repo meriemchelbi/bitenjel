@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfbed;
+  font-family: 'Rakkas', cursive, sans-serif;
+  }
+
+header {
+  font-size: 100px;
+  text-align: center;
+  background-color: inherit;
+}
+
+div {
+  text-align: center;
+}
+
+li a:hover {
+  color: #fcfbed;
+}
+
+body {
+  background-color: #fcfbed;
+}
