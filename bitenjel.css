@@ -59,7 +59,8 @@ body {
   }
 
 form {
-  width: 70%;
+  width: 50%;
+  margin-left: 90px;
 }
 
 img {
