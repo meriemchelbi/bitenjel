@@ -1,24 +1,88 @@
 * {
-  margin: 0;
-  padding: 0;
-  background-color: #fcfbed;
+  /* background-color: #fcfbed; */
+  color: black;
   font-family: 'Rakkas', cursive, sans-serif;
   }
 
 header {
-  font-size: 100px;
-  text-align: center;
-  background-color: inherit;
+  padding: 20px;
+  background-color: #fcfbed;
 }
 
-div {
+h1 {
+  color: #572f6b;
+  font-size: 65px;
   text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #572f6b;
+  opacity: 0.9;
+  width:100%;
+}
+
+ul li {
+  background-color: #572f6b;
+}
+
+li a {
+  color: #fcfbed;
+  font-size: 20px;
 }
 
 li a:hover {
-  color: #fcfbed;
+  color: #cfefc6;
 }
 
 body {
   background-color: #fcfbed;
+}
+
+.card-deck {
+  margin: 20px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.card-body {
+  background-color: #cfefc6;
+  opacity: 50%;
+  border-color: black;
+  }
+
+form {
+  width: 70%;
+}
+
+img {
+  height: 15rem;
+  width: 18rem;
+}
+
+.btn {
+  background-color: #572f6b;
+  border-color: #572f6b;
+  color: #fcfbed;
+}
+
+.btn:hover {
+  background-color: #572f6b;
+  border-color: #572f6b;
+  color: #fcfbed;
+}
+
+.display-4 {
+  font-size: 30px;
+  }
+
+.jumbotron {
+  background-color: #cfefc6;
 }
