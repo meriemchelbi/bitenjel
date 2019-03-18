@@ -1,5 +1,4 @@
 * {
-  /* background-color: #fcfbed; */
   color: black;
   font-family: 'Rakkas', cursive, sans-serif;
   }
@@ -59,8 +58,7 @@ body {
   }
 
 form {
-  width: 50%;
-  margin-left: 90px;
+  margin-left: 25%;
 }
 
 img {
