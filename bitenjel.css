@@ -1,5 +1,4 @@
 * {
-  /* background-color: #fcfbed; */
   color: black;
   font-family: 'Rakkas', cursive, sans-serif;
   }
@@ -12,15 +11,24 @@ header {
 h1 {
   color: #572f6b;
   font-size: 65px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
   color: black;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
 }
 
+/* sub-page headers */
+h3 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Nav bar */
 .nav {
   background-color: #572f6b;
   opacity: 0.9;
@@ -44,6 +52,40 @@ body {
   background-color: #fcfbed;
 }
 
+/* recipe tiles */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.img-fluid {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 93.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  /* transform: translateX(-4%); */
+  margin-left: 3.25%;
+  }
+
+.tile:hover .overlay{
+  opacity: 0.5;
+  background-color: #cfefc6;
+}
+
+/* category cards */
+
 .card-deck {
   margin: 20px;
 }
@@ -58,9 +100,9 @@ body {
   border-color: black;
   }
 
+/* contact form */
 form {
-  width: 50%;
-  margin-left: 90px;
+  margin-left: 25%;
 }
 
 img {
