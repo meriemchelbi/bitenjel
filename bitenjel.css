@@ -44,8 +44,14 @@ body {
   background-color: #fcfbed;
 }
 
+.page_intro {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 3%;
+}
+
 .card-deck {
-  margin: 20px;
+  margin: 18px;
 }
 
 .card-text {
@@ -59,8 +65,13 @@ body {
   }
 
 form {
+  margin-top: 3%;
   width: 50%;
-  margin-left: 90px;
+  margin-left: 20%;
+}
+
+button {
+  margin-top: 3%;
 }
 
 img {
