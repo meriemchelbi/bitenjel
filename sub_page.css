@@ -25,8 +25,7 @@ h3 {
   color: black;
   font-size: 40px;
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin: 20px;
 }
 
 /* Nav bar */
@@ -54,35 +53,26 @@ body {
   background-color: #fcfbed;
 }
 
-.page_intro {
-  font-size: 20px;
-  text-align: justify;
-  margin-top: 3%;
-}
-
 /* recipe tiles */
 
 .container {
-  display: flex;
-  flex-direction: row;
-  /* position: relative; */
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: flex-start;
+  position: relative;
   width: 80%;
 }
 
-.tile {
-  position: relative;
-  margin: auto;
+.img {
+  display: block;
+  width: 400px;
+  height: 300px;
+  /* margin-right: 20%; */
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   display: none;
-  width: auto;
-  height: 100%;
-  top: 0;
+  width: 400px;
+  height: 300px;
+  top: -250px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -106,56 +96,3 @@ body {
     padding: 0;
     margin: 0;
   }
-
-/* category cards */
-
-.card-deck {
-  margin: 18px;
-}
-
-.card-text {
-  padding-top: 10px;
-}
-
-.card-body {
-  background-color: #cfefc6;
-  opacity: 50%;
-  border-color: black;
-  }
-
-/* contact form */
-form {
-  margin-top: 3%;
-  width: 50%;
-  margin-left: 20%;
-}
-
-button {
-  margin-top: 3%;
-  margin-left: 25%;
-}
-
-img {
-  height: 15rem;
-  width: 18rem;
-}
-
-.btn {
-  background-color: #572f6b;
-  border-color: #572f6b;
-  color: #fcfbed;
-}
-
-.btn:hover {
-  background-color: #572f6b;
-  border-color: #572f6b;
-  color: #fcfbed;
-}
-
-.display-4 {
-  font-size: 30px;
-  }
-
-.jumbotron {
-  background-color: #cfefc6;
-}
