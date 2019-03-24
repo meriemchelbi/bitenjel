@@ -152,7 +152,7 @@ form {
 
 button {
   margin-top: 3%;
-  margin-left: 25%;
+  margin-left: auto;
 }
 
 img {
@@ -178,4 +178,12 @@ img {
 
 .jumbotron {
   background-color: #cfefc6;
+  padding: 3%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  margin-bottom: 3%;
 }
