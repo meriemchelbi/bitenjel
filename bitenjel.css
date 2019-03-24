@@ -122,7 +122,6 @@ h3 {
   .soon-tile {
     position: relative;
     text-align: center;
-    color: white;
     margin: auto;
   }
 
@@ -138,6 +137,28 @@ h3 {
     margin: 0;
   }
 
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 80%;
+  }
+
+  .tile {
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+
+  .soon-tile {
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+}
 
 
 /* category cards */
