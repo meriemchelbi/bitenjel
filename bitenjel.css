@@ -11,13 +11,13 @@ header {
 h1 {
   color: #572f6b;
   font-size: 65px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
   color: black;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 /* sub-page headers */
@@ -25,7 +25,7 @@ h3 {
   color: black;
   font-size: 40px;
   text-align: center;
-  margin: 3%;
+  margin: 20px;
 }
 
 /* Nav bar */
