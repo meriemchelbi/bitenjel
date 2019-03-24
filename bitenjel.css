@@ -63,6 +63,17 @@ h3 {
   text-align: justify;
 }
 
+@media (max-width: 576px) {
+  .page_intro {
+    font-size: 20px;
+    text-align: justify
+  }
+
+  div.container {
+    padding: 0;
+  }
+}
+
 .invisible-url {
   color: black;
 }
@@ -127,15 +138,17 @@ h3 {
     margin: 0;
   }
 
+
+
 /* category cards */
 
 .card-deck {
   margin: 0 10% 2% 10%;
-}
+  }
 
 .card-text {
   padding-top: 10px;
-}
+  }
 
 .card-body {
   background-color: #cfefc6;
@@ -155,10 +168,19 @@ button {
   margin-left: auto;
 }
 
+@media (max-width: 576px) {
+  form {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+  }
+}
+
 img {
   height: 15rem;
   width: 18rem;
 }
+
 
 .btn {
   background-color: #572f6b;
@@ -186,4 +208,11 @@ img {
 .jumbotron p {
   font-size: 18px;
   margin-bottom: 3%;
+}
+
+@media (max-width: 576px) {
+  .jumbotron p {
+    font-size: 18px;
+    margin-bottom: 8%;
+  }
 }
