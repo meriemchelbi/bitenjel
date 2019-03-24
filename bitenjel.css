@@ -20,13 +20,8 @@ h2 {
   text-align: center;
 }
 
-/* sub-page headers */
-h3 {
-  color: black;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 5%;
+body {
+  background-color: #fcfbed;
 }
 
 /* Nav bar */
@@ -35,6 +30,7 @@ h3 {
   background-color: #572f6b;
   opacity: 0.9;
   width:100%;
+  margin-bottom: 3%;
 }
 
 ul li {
@@ -50,14 +46,25 @@ li a:hover {
   color: #cfefc6;
 }
 
-body {
-  background-color: #fcfbed;
+
+/* sub-page formatting */
+
+h3 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 
 .page_intro {
   font-size: 20px;
   text-align: justify;
-  margin-top: 3%;
+  margin-top: 0;
+}
+
+.invisible-url {
+  color: black;
 }
 
 /* recipe tiles */
@@ -125,14 +132,13 @@ body {
 
 /* contact form */
 form {
-  margin-top: 3%;
+  margin-top: 2%;
   width: 50%;
   margin-left: 20%;
 }
 
 button {
   margin-top: 3%;
-  margin-left: 25%;
 }
 
 img {
