@@ -5,11 +5,11 @@
 
 header {
   padding: 20px;
-  background-color: #fcfbed;
+  background-color: #E1EAE7;
 }
 
 h1 {
-  color: #572f6b;
+  color: #5C2230;
   font-size: 65px;
   text-align: center;
 }
@@ -23,29 +23,31 @@ h2 {
 /* Nav bar */
 
 .nav {
-  background-color: #572f6b;
+  background-color: #5C2230;
   opacity: 0.9;
   width:100%;
   margin-bottom: 3%;
 }
 
 ul li {
-  background-color: #572f6b;
+  background-color: #5C2230;
 }
 
 li a {
-  color: #fcfbed;
+  color: #CDDCD7;
   font-size: 20px;
 }
 
 li a:hover {
-  color: #cfefc6;
+  color: #CDDCD7;
 }
 
 /* Body  */
 
 body {
-  background-color: #fcfbed;
+  background-color: #CDDCD7;
+  background: url("images/manip 2.jpg");
+  background-size: 600px;
 }
 
 /* sub-page headers */
@@ -92,6 +94,9 @@ h3 {
 .tile {
   position: relative;
   margin: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #5C2230;
 }
 
 .overlay {
@@ -172,7 +177,7 @@ h3 {
   }
 
 .card-body {
-  background-color: #cfefc6;
+  background-color: #E1EAE7;
   opacity: 50%;
   border-color: black;
   }
@@ -204,15 +209,15 @@ img {
 
 
 .btn {
-  background-color: #572f6b;
-  border-color: #572f6b;
-  color: #fcfbed;
+  background-color: #5C2230;
+  border-color: #5C2230;
+  color: #E1EAE7;
 }
 
 .btn:hover {
-  background-color: #572f6b;
-  border-color: #572f6b;
-  color: #fcfbed;
+  background-color: #5C2230;
+  border-color: #5C2230;
+  color: #E1EAE7;
 }
 
 .display-4 {
@@ -220,7 +225,8 @@ img {
   }
 
 .jumbotron {
-  background-color: #cfefc6;
+  background-color: #E1EAE7;
+  border-color: #5C2230;
   padding: 3%;
   margin: auto;
   margin-top: 3%;
