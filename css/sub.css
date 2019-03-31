@@ -24,18 +24,6 @@ div.sub-container {
   text-align: justify;
 }
 
-@media (max-width: 576px) {
-  .page_intro {
-    font-size: 20px;
-    text-align: justify
-  }
-
-  div.sub-container {
-    width: 50%;
-    margin: auto;
-  }
-}
-
 /* recipe tiles */
 .container {
   display: flex;
@@ -104,32 +92,6 @@ p.text-overlay {
   color: black;
 }
 
-/* Recipe tiles mob */
-@media (max-width: 576px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    width: 80%;
-  }
-
-  .tile {
-    position: relative;
-    margin: 16px auto 4px auto;
-  }
-
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-
-  .soon-tile {
-    position: relative;
-    margin: 16px auto 4px auto;
-  }
-}
-
 /* About page */
 div.about {
   background-color: #E1EAE7;
@@ -139,17 +101,4 @@ div.about {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   border-radius: 5%;
-}
-
-/* About mob */
-@media (max-width: 576px) {
-  h3 {
-    margin: 2% auto 10% auto;
-  }
-
-  div.about {
-    align-items: center;
-    margin: auto 30px auto 30px;
-    width: auto;
-  }
 }
