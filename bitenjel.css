@@ -118,7 +118,7 @@ div.container {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
@@ -168,6 +168,10 @@ p.text-overlay {
   .tile {
     position: relative;
     margin: 16px auto 4px auto;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .soon-tile {
