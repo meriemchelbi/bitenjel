@@ -1,0 +1,155 @@
+/* sub-page headers */
+h3 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto 3% auto;
+}
+
+div.sub-container {
+  width: 400px;
+  background-color: #CDDCD7;
+  text-align: center;
+  align-items: center;
+  margin: auto auto 3% 37%;
+  padding: 10px 5px 5px 0px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5C2230;
+  border-radius: 30%;
+}
+
+.page_intro {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 576px) {
+  .page_intro {
+    font-size: 20px;
+    text-align: justify
+  }
+
+  div.sub-container {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/* recipe tiles */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 80%;
+}
+
+.tile {
+  position: relative;
+  margin: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #5C2230;
+}
+
+.overlay {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.text-overlay {
+  position: relative;
+  top: 20%;
+  color: white;
+  text-align: center;
+}
+
+h3.text-overlay {
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.soon-tile {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-color: #5C2230;
+  border-width: 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p.text-overlay {
+  padding: 0;
+  margin: 0;
+}
+
+.invisible-url {
+  color: black;
+}
+
+/* Recipe tiles mob */
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 80%;
+  }
+
+  .tile {
+    position: relative;
+    margin: 16px auto 4px auto;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .soon-tile {
+    position: relative;
+    margin: 16px auto 4px auto;
+  }
+}
+
+/* About page */
+div.about {
+  background-color: #E1EAE7;
+  width: 65%;
+  flex-direction: row;
+  margin: auto auto auto 18%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-radius: 5%;
+}
+
+/* About mob */
+@media (max-width: 576px) {
+  h3 {
+    margin: 2% auto 10% auto;
+  }
+
+  div.about {
+    align-items: center;
+    margin: auto 30px auto 30px;
+    width: auto;
+  }
+}

@@ -1,0 +1,138 @@
+* {
+  color: black;
+  font-family: 'Rakkas', cursive, sans-serif;
+}
+
+header {
+  padding: 20px;
+  background-color: #E1EAE7;
+}
+
+h1 {
+  color: #5C2230;
+  font-size: 65px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Nav bar */
+.nav {
+  background-color: #5C2230;
+  opacity: 0.9;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+ul li {
+  background-color: #5C2230;
+}
+
+li a {
+  color: #CDDCD7;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: #CDDCD7;
+}
+
+/* Body  */
+body {
+  background: url("../images/manip 2.jpg");
+  background-size: 600px;
+}
+
+/* category cards */
+.card-deck {
+  margin: 0 10% 2% 10%;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.card-body {
+  background-color: #E1EAE7;
+  opacity: 50%;
+  border: 5px solid #5C2230;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  div.card-deck {
+    align-items: center;
+    margin-left: 7%;
+  }
+}
+
+/* contact form */
+form {
+  padding: 2% 10% 2% 10%;
+  margin: 3% auto 5% 25%;
+  width: 50%;
+  background-color: #CDDCD7;
+  border-radius: 5%;
+}
+
+button {
+  margin: 3% auto auto auto;
+}
+
+@media (max-width: 576px) {
+  form {
+    margin: 5% auto 5% auto;
+    width: 50%;
+  }
+}
+
+img {
+  height: 15rem;
+  width: 18rem;
+}
+
+.btn {
+  background-color: #5C2230;
+  border-color: #5C2230;
+  color: #E1EAE7;
+}
+
+.btn:hover {
+  background-color: #5C2230;
+  border-color: #5C2230;
+  color: #E1EAE7;
+}
+
+.display-4 {
+  font-size: 30px;
+}
+
+.jumbotron {
+  background-color: #E1EAE7;
+  border-color: #5C2230;
+  padding: 3%;
+  margin: 3% auto 5% auto;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  margin-bottom: 3%;
+}
+
+@media (max-width: 576px) {
+  .jumbotron p {
+    font-size: 18px;
+    margin-bottom: 8%;
+  }
+
+  .jumbotron {
+    align-items: center;
+  }
+}
