@@ -1,0 +1,89 @@
+@media (max-width: 576px) {
+  div.card-deck {
+    align-items: center;
+    margin: auto;
+  }
+
+  div.card-body {
+    background-color: #E1EAE7;
+    border: 5px solid #5C2230;
+    padding: 10px 0px 10px 0px;
+  }
+
+  img.card-img-top {
+    width: 250px;
+    height: 172px;
+  }
+
+  div.card.text-center {
+    margin: auto;
+    margin: 5px auto 5px auto;
+    width: 275px;
+  }
+
+  .jumbotron p {
+    font-size: 18px;
+    margin-bottom: 8%;
+  }
+
+  .jumbotron {
+    align-items: center;
+  }
+
+  form {
+    margin: 5% auto 5% auto;
+    width: 50%;
+  }
+
+  img {
+    height: 15rem;
+    width: 16rem;
+  }
+
+  /* Recipe tiles mob */
+  .page_intro {
+    font-size: 20px;
+    text-align: justify
+  }
+
+  div.sub-container {
+    width: 50%;
+    margin: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 80%;
+  }
+
+  .tile {
+    position: relative;
+    margin: 16px auto 4px auto;
+    align-items: center;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .soon-tile {
+    position: relative;
+    margin: 16px auto 4px auto;
+    align-items: center;
+  }
+
+  /* About mob */
+  h3 {
+    margin: 2% auto 10% auto;
+  }
+
+  div.about {
+    align-items: center;
+    margin: auto 30px auto 30px;
+    width: auto;
+  }
+}
